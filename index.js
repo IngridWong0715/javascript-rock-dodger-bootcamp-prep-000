@@ -65,7 +65,7 @@ function createRock(x) {
 
      if(checkCollision(rock)){
        console.log('REACHED Inside checkCollision');
-        endGame();
+        return endGame();
      }
 
       if (top < 400) {
