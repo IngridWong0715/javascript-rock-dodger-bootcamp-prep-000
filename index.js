@@ -68,7 +68,7 @@ function createRock(x) {
         return endGame();
      }
 
-      if (top < 400) {
+      if (top < GAME_HEIGHT) {
         window.requestAnimationFrame(moveRock);
       } else {
         rock.remove(); // remove rock from the DOM
